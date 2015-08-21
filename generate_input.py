@@ -22,7 +22,7 @@ import sys
 "       A list of lists representing the sudoku puzzle.
 """
 def generateStr(puzzle, fp):
-	op = "SAT_input/" + fp.split("puzzles/")[1]
+	op = "SAT_input/" + fp.split("puzzles/")[1] + ".in"
 	output = open(str(op), "w")
 
 	line = ""
