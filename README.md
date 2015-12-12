@@ -33,10 +33,9 @@ constraint that encodes this formula.
 x, y : BOOLEAN;
 ASSERT((x OR NOT(y)) AND (NOT(x) OR y));
 ```
-Log into a Linux machine (hive1.cs.berkeley.edu - hive24.cs.berkeley.edu), store the
-constraints above into an input file, say test1.in, and run the following command:
+Store the constraints above into an input file, say test1.in, and run the following command:
 ```
-/home/ff/cs170/bin/easystp test1.in
+absolutepath/easystp test1.in
 ```
 You should get the following output:
 Satisfiable.
